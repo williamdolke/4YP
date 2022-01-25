@@ -5,7 +5,7 @@ Rm = 8.4;
 kt = 0.042;
 % Back-emf constant (V-s/rad)
 km = 0.042;
-%
+
 %% Rotary Arm
 % Mass (kg)
 mr = 0.095;
@@ -15,7 +15,7 @@ r = 0.085;
 Jr = mr*r^2/3;
 % Equivalent Viscous Damping Coefficient (N-m-s/rad)
 br = 1e-3; % damping tuned heuristically to match QUBE-Sero 2 response
-%
+
 %% Pendulum Link
 % Mass (kg)
 mp = 0.024;
